@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'GmarketSansMedium';
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  /* background-image: url('bg.png'); */
+  display:flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.todo__summary {
+  width: 100%;
+  height: 20%;
+  background-image: url('bg.png');
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo__date {
+  font-size: 12px;
+}
+
+.todo__total {
+  font-size: 64px;
+}
+
+.todo__tab {
+  width: 100%;
+  height: 10%;
+  display:flex;
+}
+
+.todo__category {
+  border: 1px solid #964b00;
+  border-bottom: none;
+  font-size:32px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 50%;
+}
+
+.unactive {
+  opacity: 0.1;
+  border-bottom: 1px solid #964b00;
+}
+
+.todo__list {
+  /* height: 65%; */
+  width: 95%;
+  margin: auto;
+  margin-top:0;
+}
+
+.todo__item {
+  margin-top: 2%;
+  padding-bottom: 1%;
+  border-bottom: 1px dotted black;
+}
+
+.todo__item__header {
+  display:flex;
+  font-size:32px;
+  justify-content: space-between;
+}
+
+.todo__item__header__left {
+  display:flex;
+}
+
+.todo__item__title {
+  margin-left: 20px;
+}
+
+.todo__item__timerBtn {
+  border:none;
+  outline:none;
+  border-radius: 50%;
+  width:36px;
+  height:36px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  color: white;
+}
+
+.todo__item__details {
+  margin-top: 0.5%;
+}
+
+.todo__item__detail {
+  font-size:16px;
+  margin-left: 3%;
+}
+
+.todo__add {
+  border:none;
+  margin-top:1%;
+  color: #964b00;
+  width:100%;
+  font-size:32px;
+  background-color: white;
+  text-align: right;
+}
+
+
